@@ -1,0 +1,3 @@
+INSERT INTO role (created_by, created_date, deleted_by, deleted_date, last_modified_by, last_modified_date, state, description, role) VALUES ('admin', '2021-08-29 14:43:22', null, null, null, null, 'ACTIVE', null, 'ADMIN');
+INSERT INTO user (created_by, created_date, deleted_by, deleted_date, last_modified_by, last_modified_date, state, email, last_name, name, password, telephone, username, address, birthdate, completed, country, education, gender, language) VALUES ('anonymousUser', '2021-08-29 18:20:13.170000', null, null, null, null, 'ACTIVO', 'admin@admin.com', 'admin', 'admin', '$2a$10$DOMDxjYyfZ/e7RcBfUpzqeaCs8pLgcizuiQWXPkU35nOhZlFcE9MS', '12345678', 'admin', null, null, null, null, null, null, null);
+INSERT INTO user_rol (user_id, role_id) VALUES (1, 1);
